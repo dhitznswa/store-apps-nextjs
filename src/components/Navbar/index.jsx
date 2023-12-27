@@ -45,7 +45,7 @@ export default function Navbar() {
         />
       </div>
       <div className="">
-        <i class="fa-light fa-envelope p-overlay-badge ">
+        <i className="fa-light fa-envelope p-overlay-badge ">
           <Badge severity="danger" className="top-1" />
         </i>
       </div>

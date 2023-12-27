@@ -11,9 +11,11 @@ export default function HeaderLanding() {
             Online Store For{" "}
             <span className="text-[var(--primary-color)]">Everyone</span>
           </h1>
-          <h2 className="text-2xl font-light">Shopping with enjoyment</h2>
+          <h2 className="text-xl md:text-2xl font-light">
+            Shopping with enjoyment
+          </h2>
           <div className="mt-6 w-full">
-            <div className="w-[70%] px-5 py-2 border border-slate-300 rounded-full flex items-center mx-auto md:mx-0">
+            <div className="w-full md:w-[70%] px-5 py-2 border border-slate-300 rounded-full flex items-center mx-auto md:mx-0">
               <div className="input__icon">
                 <i className="fa-regular fa-search"></i>
               </div>
@@ -32,7 +34,6 @@ export default function HeaderLanding() {
             src="/Illustrations/Scenes/HeaderLandingImage.svg"
             alt="HeaderLandingImage"
             className="w-full"
-            srcset=""
           />
         </div>
       </div>

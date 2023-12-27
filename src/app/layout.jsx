@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
   return (
     <PrimeReactProvider>
       <html lang="en">
-        <body className="font-sm">{children}</body>
+        <body className="font-sm pb-10">{children}</body>
       </html>
     </PrimeReactProvider>
   );
